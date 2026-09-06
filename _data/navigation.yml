@@ -1,7 +1,7 @@
 main:
+  - title: "CV"
+    url: /cv/
   - title: "Projects"
     url: /projects/
   - title: "Experience"
     url: /experience/
-  - title: "CV"
-    url: /cv/
