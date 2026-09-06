@@ -1,0 +1,42 @@
+---
+title: "TCP over UDP"
+excerpt: "A from-scratch reimplementation of TCP's core mechanics in Python, built entirely on unreliable UDP datagrams."
+collection: portfolio
+---
+
+Python's socket module gives you TCP for free. The point of this course project
+was to not use it, and instead build the reliability, ordering, and congestion
+behavior TCP normally provides, using only plain UDP datagrams underneath.
+
+The result is a socket-like class with the same core methods as a real socket,
+`bind`, `listen`, `accept`, `connect`, `send`, `receive`, `close`, so code
+written against it looks like ordinary networking code, even though everything
+underneath is built from scratch.
+
+## What it does
+
+Connections go through a real three-way handshake and a proper TCP-style
+teardown, with separate states for each stage of closing rather than just
+dropping packets. Every segment carries a sequence number, the receiver sends
+cumulative acknowledgements, and out-of-order segments are buffered and
+stitched back into place once the missing pieces arrive.
+
+Loss is handled two ways: a segment is retransmitted if it times out, and also
+immediately if three duplicate acknowledgements arrive, the standard signal
+that a segment was lost rather than just delayed. A congestion window grows
+through slow start and congestion avoidance and shrinks on loss, and a
+separate receiver window enforces flow control, including probing the
+receiver when its window drops to zero. The retransmission timeout itself is
+not fixed. It adapts from measured round-trip times using the standard
+estimator TCP itself uses.
+
+Packets can also carry an encrypted payload, using AES in counter mode, as an
+optional flag on each packet rather than a separate protocol.
+
+## Demo
+
+A small multi-client chat application, a server and a client, runs on top of
+the socket to exercise it under real, unpredictable timing rather than in a
+controlled test.
+
+[Source on GitHub](https://github.com/hoseinn-gh/TCP_over_UDP)
