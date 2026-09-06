@@ -4,8 +4,7 @@ excerpt: "A from-scratch reimplementation of TCP's core mechanics in Python, bui
 collection: portfolio
 ---
 
-Python's socket module gives you TCP for free. The point of this course project
-was to not use it, and instead build the reliability, ordering, and congestion
+The point of this course project was to build the reliability, ordering, and congestion
 behavior TCP normally provides, using only plain UDP datagrams underneath.
 
 The result is a socket-like class with the same core methods as a real socket,
