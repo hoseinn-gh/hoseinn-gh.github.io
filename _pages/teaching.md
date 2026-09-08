@@ -54,18 +54,13 @@ directly.
 
 Research project
 ======
-*AI-Based Trading,  Summer 2025*
+*AI-Based Trading, France (Remote), Summer 2025*
 
-Worked on an applied research project in collaboration with an industry researcher,
-exploring the use of machine learning for algorithmic trading.
+Investigated whether technical indicators and price-cycle structure could predict short-term movement in a stock's price.
 
-I designed and evaluated data-driven trading strategies using historical market
-data, experimenting with machine learning techniques to identify potentially
-profitable market patterns and improve trading decisions.
+I built automated data pipelines across four timeframes, extracting over 200,000 historical data points, and engineered a library of 20+ technical indicators alongside custom causal smoothing filters. I then designed and compared five trading strategies, including slope-based cycle detection, MACD-based signals, and an LSTM sequence model, validating each through multi-window backtesting against a fee-adjusted Buy & Hold benchmark. Alongside this, I ran a seasonality study across 25 years of price history, including outlier detection to separate genuine market moves from noise.
 
-The project gave me an opportunity to work on an open-ended problem where the
-challenge was not simply to build a model, but to determine whether the patterns
-it found could translate into meaningful trading decisions.
+The real challenge was rarely the modeling itself, but everything around it: pulling meaningful signal out of noisy, imperfect market data, and searching for approaches actually suited to the environment, where the same method could behave very differently depending on the stock, the timeframe, or the general market conditions at the time. It left me with a much sharper sense of how to test whether a pattern is genuinely real, rather than just building something that looks convincing on paper.
 
 Computer Vision Cup
 ======
