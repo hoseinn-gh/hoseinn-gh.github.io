@@ -27,7 +27,7 @@ built become part of the team's actual workflow.
 
 Computer Architecture
 ======
-*Teaching assistant, Isfahan University of Technology,  Winter 2026*
+*Teaching assistant, Isfahan University of Technology,  Winter 2025*
 
 Teaching assistant for the Computer Architecture course, working
 with a cohort of 60 students.
