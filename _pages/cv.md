@@ -52,7 +52,7 @@ Experience
 * **Software Engineering Intern,** summer 2026.
 * **Teaching Assistant, Computer Architecture,** Isfahan University of Technology,
   Winter 2026.
-* **Research Project,** AI-Based Trading, Summer 2025.
+* **Research Project,** AI-Based Trading, France (Remote), Summer 2025.
 * **Scientific and Organizing Team,** IUT Computer Vision Cup, Spring 2025.
 
 More detail and additional experiences under [Experience]({{ base_path }}/experience/).
