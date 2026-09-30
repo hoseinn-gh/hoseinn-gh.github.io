@@ -3,7 +3,7 @@ title: "Classical Computer Vision Algorithms"
 excerpt: "Four vision systems implemented from first principles in NumPy and SciPy, plus a document-parsing pipeline."
 collection: portfolio
 redirect_from:
-  - /portfolio/93_Classical_CV_ Algorithms.md/
+  - /portfolio/3_Classical_CV_ Algorithms.md/
 ---
 
 Four classical computer vision systems, implemented in NumPy and SciPy rather
