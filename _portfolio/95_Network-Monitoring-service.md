@@ -2,6 +2,7 @@
 title: "Real-Time Network Traffic Monitoring System"
 excerpt: "A Linux packet-capture service in C++ feeding a live browser dashboard, built during an industry internship."
 collection: portfolio
+redirect_from: 2_Network-Monitoring-service.md
 ---
 
 An internal tool built during an industry internship: a system that captures network traffic on a production Linux server, stores it, and presents both live and historical views in a browser. I was the sole developer, working across the whole stack, capture service, backend, persistence, and dashboard.
