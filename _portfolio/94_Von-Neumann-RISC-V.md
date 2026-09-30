@@ -2,6 +2,8 @@
 title: "32-bit RISC-V Von Neumann Processor"
 excerpt: "A RISC-V core supporting the full RV32IM instruction set, with a two-pass assembler written from scratch."
 collection: portfolio
+redirect_from:
+  - /portfolio/4_Von-Neumann-RISC-V.md/
 ---
 
 A 32-bit RISC-V processor built in Logisim Evolution, together with the
