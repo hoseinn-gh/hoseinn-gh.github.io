@@ -1,10 +1,10 @@
 ---
 title: "FPGA Hardware Accelerator for JPEG AI"
-excerpt: "An ongoing B.Sc. final project implementing the JPEG AI learned image compression model end to end in hardware on FPGA."
+excerpt: "An ongoing B.Sc. final project implementing the JPEG AI learned image compression model on FPGA."
 collection: portfolio
 ---
 
-An ongoing project to implement the JPEG AI image compression model end to end in hardware on FPGA, aiming to improve its speed, resource usage or energy consumption. It is my B.Sc. final project, supervised by [Dr. Nader Karimi](https://scholar.google.com/citations?user=mZGNr2QAAAAJ&hl=en).
+An ongoing project to implement the JPEG AI image compression model in hardware on FPGA, aiming to improve its speed, resource usage or energy consumption. It is my B.Sc. final project, supervised by [Dr. Nader Karimi](https://scholar.google.com/citations?user=mZGNr2QAAAAJ&hl=en).
 
 ## Background
 
