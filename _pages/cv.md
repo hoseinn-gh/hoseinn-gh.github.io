@@ -20,6 +20,7 @@ Education
     Design, Hardware Description Languages and Circuits
   * **AI & Computer Vision:** Artificial Intelligence, Fundamentals of
     Computer Vision, Engineering Probability and Statistics
+  * **Final project:** FPGA hardware acceleration of JPEG AI, a learned image compression standard
 
 Interests
 ======
@@ -33,6 +34,10 @@ the algorithms that will run on it.
 
 Projects
 ======
+* **FPGA Hardware Accelerator for JPEG AI:** ongoing B.Sc. final project supervised by
+  [Dr. Nader Karimi](https://scholar.google.com/citations?user=mZGNr2QAAAAJ&hl=en),
+  implementing the JPEG AI learned image compression model in hardware and aiming to
+  improve its speed, resource usage or energy consumption.
 * **Real-Time FPGA Image Processing Pipeline:** a streaming Verilog datapath for
   median denoising and Laplacian edge detection, processing one pixel per clock
   with no external frame buffer.
@@ -41,15 +46,13 @@ Projects
 * **Classical Computer Vision Algorithms:** four vision systems implemented in
   NumPy and SciPy without high-level libraries, plus an end-to-end document
   rectification and binarization pipeline.
-* **Real-Time Network Traffic Monitoring System:** a Linux packet-capture service
-  in C++ feeding a live browser dashboard, with time-series storage for
-  historical analysis.
 
 More on these, and further projects, under [Projects]({{ base_path }}/projects/).
 
 Experience
 ======
-* **Software Engineering Intern,** summer 2026.
+* **Teaching Assistant, Artificial Intelligence,** Isfahan University of Technology,
+  Fall 2026.
 * **Teaching Assistant, Computer Architecture,** Isfahan University of Technology,
   Winter 2025.
 * **Research Project,** AI-Based Trading, France (Remote), Summer 2025.
