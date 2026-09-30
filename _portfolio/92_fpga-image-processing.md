@@ -2,6 +2,8 @@
 title: "Real-Time FPGA Image Processing Pipeline"
 excerpt: "Streaming Verilog datapath for median denoising and Laplacian edge detection, sustaining one pixel per clock."
 collection: portfolio
+redirect_from:
+  - /portfolio/1_fpga-image-processing.md/
 ---
 
 A fully streaming image-processing datapath on FPGA: median filtering to remove
