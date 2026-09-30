@@ -6,6 +6,15 @@ author_profile: true
 ---
 
 {% include base_path %}
+Artificial Intelligence
+======
+*Teaching assistant, Isfahan University of Technology,  Fall 2026*
+
+Currently a teaching assistant for the undergraduate Artificial Intelligence course,
+working with a cohort of 60 students.
+
+I design the assignments and grade students' submissions. I also run
+problem-solving sessions for the class.
 
 Industry Internship
 ======
