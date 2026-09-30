@@ -1,10 +1,10 @@
 ---
 title: "FPGA Hardware Accelerator for JPEG AI"
-excerpt: "An ongoing B.Sc. final project implementing the JPEG AI learned image compression model in hardware on FPGA."
+excerpt: "An ongoing B.Sc. final project implementing the JPEG AI learned image compression model end to end in hardware on FPGA."
 collection: portfolio
 ---
 
-An ongoing project to implement the JPEG AI image compression model in hardware on FPGA, aiming to improve its speed, resource usage or energy consumption. It is my B.Sc. final project, supervised by [Dr. Nader Karimi](https://scholar.google.com/citations?user=mZGNr2QAAAAJ&hl=en).
+An ongoing project to implement the JPEG AI image compression model end to end in hardware on FPGA, aiming to improve its speed, resource usage or energy consumption. It is my B.Sc. final project, supervised by [Dr. Nader Karimi](https://scholar.google.com/citations?user=mZGNr2QAAAAJ&hl=en).
 
 ## Background
 
@@ -14,13 +14,13 @@ The networks involve many layers, the intermediate feature maps of high-resoluti
 
 ## Goal
 
-The goal is to implement the model in hardware on FPGA and improve how it runs, whether that means higher speed, lower resource usage or lower energy consumption. Dedicated hardware can fit the structure of this workload far better than a general-purpose processor, since the data flow through the layers is regular and known in advance.
+The goal is to build the complete model in hardware on FPGA, from the neural network layers through to the entropy coding, and to improve how it runs, whether that means higher speed, lower resource usage or lower energy consumption. Dedicated hardware can fit the structure of this workload far better than a general-purpose processor, since the data flow through the layers is regular and known in advance.
 
 ## Approach
 
-The work starts by profiling the model to see where computation, memory traffic and time actually go, and which parts limit performance. The likely candidates are the convolution layers, the movement of feature maps through memory, and the entropy coding. Those parts are then implemented in hardware and improved.
+The work focuses on the three parts that matter most for performance, which are the convolution layers, the movement of feature maps through memory, and the entropy coding. Similar work has been done before on this model, and the results will be compared against it.
 
-My earlier work on streaming data through on-chip buffers without an external frame buffer, in the [FPGA image processing pipeline]({{ base_path }}/portfolio/1_fpga-image-processing/), is directly relevant to the memory side of this problem.
+My earlier work on streaming data through on-chip buffers without an external frame buffer, in the [FPGA image processing pipeline]({{ base_path }}/portfolio/92_fpga-image-processing/), is directly relevant to the memory side of this problem.
 
 ## Status
 
